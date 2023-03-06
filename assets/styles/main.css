@@ -1,0 +1,320 @@
+.main-top-pic {
+    background: url("../images/cover.webp");
+    height: 960px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 10px 10px -6px var(--dark-grey-color);
+}
+
+.search-bar {
+    background: url("../images/search.png");
+    width: 100px;
+    height: 20px;
+}
+
+.center-container {
+    display: block;
+    color: white;
+    position: absolute;
+    margin: 400px 0 0 396px;
+    line-height: 1.5em;
+}
+
+.center-container h1 {
+    width: 600px;
+    font-family: "AdiHaus-bold";
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.center-container h6 {
+    font-size: 20px;
+    width: 560px;
+}
+
+.center-container {
+    align-items: center;
+    box-shadow: 2px;
+}
+
+.buttons li {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin: 20px 0 10px 0;
+    padding: 4px 12px 0 0;
+    background-color: white;
+    color: black;
+    align-items: center;
+    height: 56px;
+    width: fit-content;
+    border-bottom: 2px solid rgb(218, 168, 167);
+    border-right: 2px solid rgb(218, 168, 167);
+    box-shadow: 1px 1px 0 0 white;
+}
+
+.buttons li:hover {
+    box-shadow: 0 10px 6px -6px var(--dark-grey-color) 
+}
+
+.buttons a {
+    font-size: var(--small-font-size);
+    padding: 8px 15px 10px 15px;
+    font-weight: 600;
+}
+
+.buttons li span {
+    font-size: 30px;
+    padding: 15px 15px 15px 0;
+}
+
+.buttons a:hover,
+.buttons li:hover {
+    background-color: black;
+    color: white;
+}
+
+.center-container span {
+    padding-left: 20px;
+}
+
+.category {
+    display: flex;
+    width: 68%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.category img {
+    width: 425px;
+    height: 260px;
+}
+
+.category img:hover,
+.prod-container:hover,
+.cat-container .prod-img:hover,
+.artic-container .prod-img:hover { 
+    box-shadow: 0 10px 6px -6px var(--dark-grey-color);
+    transform: scale(1.1);
+    z-index: 6;
+}
+
+.main-nav {
+    padding-top: 24px;
+    margin: auto;
+    width: 68%;
+    height: 40px;
+    border-top: 1.5px solid var(--light-grey-color);
+    border-bottom: 1.5px solid var(--light-grey-color);
+}
+
+.main-nav li {
+    display: inline;
+    padding: 0 10px 20px 10px;
+    margin-left: 30px;
+}
+
+.main-nav a {
+    color: var(--dark-grey-color);
+    font-size: var(--small-font-size);
+}
+
+.main-nav li:hover {
+    color: black;
+    font-weight: 700;
+    border-bottom: 3px solid black;
+}
+
+.products,
+.products2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 68%;
+}
+
+.prod-img {
+    height: 280px;
+    justify-items: center;
+}
+
+.cat-name {
+    color: rgb(106, 110, 114);
+}
+.prod-name {
+    padding: 10px 0 0 0;
+    line-height: 1.6;
+}
+.lines {
+    display: flex;
+    margin: auto;
+    width: 2%;
+    padding: 120px 0;
+
+}
+
+.lines span {
+    font-size: 40px;
+    height: 50px;
+    font-weight: 700;
+}
+#second-line {
+    color: gray;
+    font-weight: 400;
+}
+
+#second-line:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.prod-container {
+    width: 280px;
+    height: 424px;
+    margin-bottom: 20px;
+}
+
+.prod-container:hover {
+    border: 1px solid black;
+}
+
+.prod-container p {
+    padding: 10px 0 0 14px;
+    font-size: var(--small-font-size);
+}
+
+.prod-container .prod-img {
+    width: 280px;
+}
+.price {
+    margin-bottom: 60px;
+}
+
+.cat-container {
+    width: 420px;
+}
+
+.cat-container .prod-img {
+    width: 420px;
+    height: 564px;
+}
+
+.cat-container h4 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.6;
+    padding: 10px 0 10px 0;
+}
+
+.description {
+    font-size: 18px;
+    color: var(--dark-grey-color);
+    padding-bottom: 20px;
+}
+
+.shop-now {
+    margin: 20px 0 0 -10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    border: none;
+    height: 24px;
+    width: 110px;
+    background-color: white;
+    letter-spacing: 0.1em;
+}
+
+.shop-now:hover {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 68%;
+    padding: 10px 0 0 0;
+    height: 400px;
+}
+
+.heading-artic h2 {
+    font-family: "AdiHaus-bold";
+    width: 600px;
+    font-size: 26px;
+    margin: 50px 0 10px 420px;
+    letter-spacing: 0.1em;
+}
+
+.artic-container h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.artic-container span {
+    width: 400px;
+}
+
+
+.articles-container img {
+    width: 420px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.article {
+    background-color: white;
+    position: absolute;
+    margin: 234px 20px 0;
+    height: 140px;
+    z-index: 2;
+}
+
+.article h3 {
+    padding: 10px 15px 0 15px;
+}
+
+.article p {
+    font-size: 18px;
+    color: var(--dark-grey-color);
+    padding-bottom: 20px;
+    padding: 10px 15px 15px 15px;
+    line-height: 1.3;
+}
+
+.last-heading, 
+.last-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.last-heading {
+    font-family: "AdiHaus-bold";
+    font-size: 32px;
+    margin: 80px 0 40px 0;
+    letter-spacing: 0.1em;
+}
+
+.last-container {
+    margin-bottom: 20px;
+}
+
+.last-container li{
+    display: inline;
+    font-size: 18px;
+}
+
+.last-container a {
+    border: 1px solid rgb(204, 200, 200);
+    padding: 15px;
+}
+
+.last-container a:hover {
+    border: 1px solid var(--dark-grey-color);
+}
+

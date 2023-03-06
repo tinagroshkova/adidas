@@ -1,0 +1,144 @@
+.end-articles {
+    display: flex;
+    margin: auto;
+    width: 52%;
+    padding: 60px 0 0 0;
+}
+
+.end-articles article {
+    margin: 20px 0 40px 0;
+}
+
+.end-articles h5 {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+.end-articles p,
+.end-articles h5 {
+    padding: 10px 24px 0 10px;
+    line-height: 1.6em;
+}
+
+.end-articles p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    width: 620px;
+    color: var(--dark-grey-color);
+
+}
+
+.banner-wrapper {
+    background-color: #EDE734;
+    padding: 40px 0 40px 0;
+}
+
+.banner {
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
+.banner h4 {
+    margin: 10px 0;
+    width: 420px;
+    font-family: "AdiHaus-bold";
+    font-size: 34px;
+}
+
+.banner button {
+    background-color: black;
+    height: 56px;
+    display: flex;
+    margin-left: 80px;
+    border-bottom: 2px solid #EDE734;
+    border-right: 2px solid yellow;
+    box-shadow: 1px 1px  black;
+}
+
+.banner button a, 
+.banner button span {
+    color: white;
+    display: inline-block;   
+}
+
+.banner button a {
+    font-size: var(--small-font-size);
+    padding: 14px 10px 0 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.banner span {
+    padding: 10px 10px 0 0;
+    font-size: 26px;
+}
+
+.banner button a:hover {
+    color: var(--dark-grey-color);
+}
+
+.big-nav {
+    display: flex;
+    margin: auto;
+    width: 1160px;
+    height: 580px;
+    line-height: 1.5em;   
+}
+
+.small-nav {
+    display: block;
+    width: 138px;
+    margin: 10px 15px;
+}
+
+.small-nav a {
+    font-size: 14px;
+    color: var(--dark-grey-color);
+}
+
+.small-nav a:hover {
+    text-decoration: underline;
+    color: var(--dark-grey-color);
+}
+
+.small-nav h5 {
+    padding: 20px 0 10px 0;
+    font-family: "AdiHaus-bold";
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.last-banner {
+    background-color: var(--dark-grey-color);
+    height: 120px;
+}
+
+.last-banner ul,
+.last-banner p {
+    display: flex;
+    margin: auto;
+    width: 30%;
+}
+
+.last-banner nav {
+    padding:30px 0 44px 0;
+}
+
+.last-banner a,
+.last-banner p {
+    font-size: 12px;
+    color:rgb(194, 197, 201);
+    padding: 4px 16px;
+}
+
+.last-banner li + li {
+    border-left: 0.5px solid rgb(148,161,173);    
+}
+
+.last-banner p {
+    position: absolute;
+    padding-left: 740px ;
+}

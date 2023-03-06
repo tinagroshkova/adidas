@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "AdiHaus-regular";
+    src: url("../fonts/AdihausDIN/AdihausDIN-Regular.woff2");
+}
+
+@font-face {
+    font-family: "AdiHaus-bold";
+    src: url("../fonts/AdihausDIN/AdihausDIN-Bold.woff2");
+    src: url("../fonts/AdihausDIN/adineuePRO-Bold.woff2");
+}
+@font-face {
+    font-family: "AdiHaus-italic";
+    src: url("../fonts/AdihausDIN/AdihausDIN-CnBoldItalic\ \(1\).woff2");
+}
+
+body {
+    background-color: white;
+    font-family: "AdiHaus-regular";
+    font-weight: 400;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(236, 239, 241);
+}
